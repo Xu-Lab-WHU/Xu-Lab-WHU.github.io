@@ -1,0 +1,32 @@
+/* PI css */
+article .container {
+    margin: 20px 100px;
+}
+article .container .mainContent {
+    width: 1100px;
+    height: 856px;
+    margin-top: 30px;
+}
+article .container .mainContent .maintext {
+    float: left;
+    
+}
+article .container .mainContent .xyz {
+    float: left;
+    width: 257px;
+    height: 295px;
+}
+article .container .mainContent .xyz a {
+    display: block;
+    margin-top: 0px;
+    background: url("../figure/xuyz.png") no-repeat;
+    background-size: 154px 177px;
+    font-size: 0;
+    width: 154px;
+    height: 177px;
+    border-radius: 5px;
+}
+article .container .STYLE12 {
+    width: 700px;
+    margin: 20px 0;
+}

@@ -1,0 +1,39 @@
+/* remove all margin and padding of tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    align-self: center;
+    border: 0;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    background-color: #666666;
+}
+b, strong {
+    letter-spacing: 0;
+    color: #f1c111;
+}
+button,
+input {
+    border: 0;
+    outline: none;
+}

@@ -1,0 +1,223 @@
+/* font-style */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?fza96q');
+    src:  url('../fonts/icomoon.eot?fza96q#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?fza96q') format('truetype'),
+      url('../fonts/icomoon.woff?fza96q') format('woff'),
+      url('../fonts/icomoon.svg?fza96q#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-education:before {
+    content: "\e900";
+  }
+  .icon-envelope:before {
+    content: "\e901";
+  }
+  .icon-file-pdf-o:before {
+    content: "\e903";
+  }
+  .icon-document-file-pdf:before {
+    content: "\e904";
+  }
+  .icon-document-file-pdf1:before {
+    content: "\e905";
+    font-size: 20px;
+  }
+  .icon-document-file-pdf1:hover {
+    content: "\e905";
+    font-size: 20px;
+    color: #2196f3;
+  }
+  .icon-home3:before {
+    content: "\e902";
+  }
+  .icon-file-text2:before {
+    content: "\e926";
+  }
+  .icon-file-picture:before {
+    content: "\e927";
+  }
+  .icon-bubbles3:before {
+    content: "\e96f";
+  }
+  .icon-users:before {
+    content: "\e972";
+  }
+  .icon-lab:before {
+    content: "\e9aa";
+  }
+  .icon-happy:before {
+    content: "\e9df";
+  }
+  .icon-grin:before {
+    content: "\e9e9";
+  }
+  .icon-envelop:before {
+    content: "\e945";
+  }
+  .icon-user-tie:before {
+    content: "\e976";
+  }
+  .icon-whatsapp:before {
+    content: "\ea93";
+  }
+  .icon-file-pdf:before {
+    content: "\eadf";
+  }
+  /* Style page Setting */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/* head部分 */
+/* header模块部分 */
+.headPic {
+    position: relative;
+    height: 190px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.headPic a {
+    display: block;
+    height: 185px;
+    background: url("../logo/head_image.png") no-repeat;
+    background-size: 1200px 185px;
+    font-size: 0;
+}
+
+  /* nav导航部分 */
+.nav {
+    position: relative;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #5E803F;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+nav .navitems {
+    margin-left: 10px;
+    /* width: 900px; */
+    /* height: 60px; */
+    
+}
+nav .navitems ul li {
+    width: 167px;
+    /* height: 60px; */
+    float: left;
+    text-align: center;
+    /* border-left: #fff solid 1px; */
+}
+nav .navitems ul li a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+    padding: 0 0px;
+    color: #fff;
+}
+nav .navitems ul li a:hover {
+    color: black;
+    background-color: #CADFB8;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+nav .navitems ul li a.active {
+    color: black;
+    background-color: #CADFB8;
+    border-radius: 5px;
+}
+nav .navitems ul li .search {
+    position: absolute;
+    top: 12px;
+    left: 920px;
+    height: 35px;
+    width: 260px;
+    border-radius: 5px;
+    border: 2px solid #999;
+}
+nav .navitems ul li .search input {
+    float: left;
+    width: 200px;
+    height: 31px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+nav .navitems ul li .search button {
+    float: left;
+    width: 56px;
+    height: 31px;
+    border: 2px solid #999;
+    background-color: #999;
+    color: #fff;
+}
+nav .navitems ul li .search button:hover {
+    background-color: #2196f3;
+    border: 2px solid #2196f3;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 102%;
+}
+.fa {
+    display: inline-block;
+    font-family: 'icomoon';
+    padding-right: 15px;
+    font-size: 22px;
+    font-style: normal;
+    color: #111111;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+nav .fa-Interests::before {
+    font-family: 'icomoon';
+    content: '\e902';
+    width: 30px;
+    height: 30px;
+}
+
+/* footer模块部分 */
+footer .footer-bottom {
+    background-color: #5E803F;
+    height: 50px;
+    line-height: 50px;
+}
+footer .footer-container {
+    max-width: 1140px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+footer .footer-container p {
+    display: block;
+    height: 50px;
+}

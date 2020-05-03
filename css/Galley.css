@@ -1,0 +1,20 @@
+/* Galley css */
+article .mainContent {
+    margin: 20px 50px;
+    height: 1250px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+article .mainContent .GP2019 {
+    margin:20px auto;
+    width: 873.5px;
+    height: 540px;
+    background: url('../figure/2019_together\ .png') no-repeat;
+    background-size: 873.5px 540px;
+}
+article .mainContent .Sym2019 {
+    margin:20px auto;
+    width: 873.5px;
+    height: 540px;
+    background: url('../figure/2019\ RNA\ conference.jpg') no-repeat;
+    background-size: 873.5px 540px;
+}

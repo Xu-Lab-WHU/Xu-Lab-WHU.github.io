@@ -1,0 +1,55 @@
+/* contant css */
+article .mainContent {
+    margin: 20px 50px;
+    height: 1050px;
+}
+article .mainContent .maintext {
+    float: left;
+    width: 600px;
+    height: 530px;
+}
+article .mainContent .maintext .LabSummary {
+    height: 150px;
+    border: 1px solid #5E803F;
+    border-radius: 6px;
+}
+article .mainContent .maintext h3 {
+    padding: 0px 10px 0;
+    background-color: #5E803F;
+    border-color: #5E803F;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    color: white;
+    font-style: normal;
+}
+article .mainContent .maintext .address {
+    height: 150px;
+    border: 1px solid #5E803F;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+article .mainContent .maintext .contact {
+    height: 160px;
+    border: 1px solid #5E803F;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+article .mainContent .Fig {
+    float: right;
+    width: 450px;
+    height: 530px;
+}
+article .mainContent .Fig .mainFig {
+    float: right;
+    width: 450px;
+    height: 500px;
+    background: url('../figure/WHU_fig.png') no-repeat;
+    background-size: 450px 500px;
+    border: 1px solid #5E803F;
+    border-radius: 6px;
+}
+article .mainContent .googlemap {
+    float: left;
+    width: 1100px;
+    margin: 0 auto;
+}

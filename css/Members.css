@@ -1,0 +1,134 @@
+/* Members css */
+article {
+    height: 1350px;
+}
+article .maincontent {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+article .maincontent .Associate {
+    height: 230px;
+}
+article .maincontent .Associate .photo {
+    float: left;
+    width: 176px;
+    height: 220px;
+    background: url('../figure/yj_fan.png') no-repeat;
+    background-size: 176px 220px;
+    border-radius: 10px;
+}
+article .maincontent .Associate .description {
+    float: left;
+    width: 880px;
+    height: 250px;
+    padding-left: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.STYLE12 {
+    width: 800px;
+    margin: 20px 0;
+}
+.STYLE13 {
+    width: 800px;
+    margin: 0;
+}
+.STYLE11 {
+    margin: 0 0;
+    color: #999;
+}
+article .maincontent .student {
+    margin-top: 20px;
+}
+article .maincontent .student ul li {
+    float: left;
+    width: 175px;
+    height: 280px; 
+    margin: 20px 40px 20px 0;
+}
+
+article .maincontent .student ul li .fig {
+    width: 175px;
+    height: 220px;
+}
+article .maincontent .student ul li .name {
+    margin-top: 15px;
+    width: 175px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article .maincontent .student ul li .fig .stu1 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat 0px 0px;
+}
+article .maincontent .student ul li .fig .stu2 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -236px 0px;
+}article .maincontent .student ul li .fig .stu3 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -468px 0px;
+}article .maincontent .student ul li .fig .stu4 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -697px 0px;
+}article .maincontent .student ul li .fig .stu5 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat 0px -344px;
+}article .maincontent .student ul li .fig .stu6 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -236px -344px;
+}article .maincontent .student ul li .fig .stu7 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat 0px -687px;
+}article .maincontent .student ul li .fig .stu8 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -236px -687px;
+}article .maincontent .student ul li .fig .stu9 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -468px -687px;
+}article .maincontent .student ul li .fig .stu10 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -697px -687px;
+}article .maincontent .student ul li .fig .stu11 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat 0px -1027px;
+}article .maincontent .student ul li .fig .stu12 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -236px -1027px;
+}article .maincontent .student ul li .fig .stu13 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -468px -1027px;
+}article .maincontent .student ul li .fig .stu14 {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+    background: url('../figure/members_all.png') no-repeat -697px -1027px;
+}
