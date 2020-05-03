@@ -105,7 +105,7 @@
 .headPic a {
     display: block;
     height: 185px;
-    background: url("../logo/head_image.pdf") no-repeat;
+    background: url("../logo/head_image.png") no-repeat;
     background-size: 1200px 185px;
     font-size: 0;
 }
