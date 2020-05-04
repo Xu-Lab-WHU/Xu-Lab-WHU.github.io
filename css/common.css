@@ -100,12 +100,13 @@
     position: relative;
     height: 190px;
     padding-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    background-color: #CADFB8;
 }
 .headPic a {
     display: block;
     height: 185px;
-    background: url("../logo/head_image.png") no-repeat;
+    background: url("../logo/head_image.pdf") no-repeat;
     background-size: 1200px 185px;
     font-size: 0;
 }
@@ -114,7 +115,7 @@
 .nav {
     position: relative;
     margin: 0 auto;
-    height: 60px;
+    height: 63px;
     background-color: #5E803F;
     position: sticky;
     top: 0px;
@@ -122,9 +123,10 @@
 }
 nav .navitems {
     margin-left: 10px;
+    border-top: #5E803F solid 2px;
+    border-bottom: #5E803F solid 1px;
     /* width: 900px; */
     /* height: 60px; */
-    
 }
 nav .navitems ul li {
     width: 167px;
