@@ -132,3 +132,8 @@ article .maincontent .student ul li .fig .stu2 {
     border-radius: 10px;
     background: url('../figure/members_all.png') no-repeat -697px -1027px;
 }
+article .maincontent .student ul li .fig img {
+    width: 175px;
+    height: 220px;
+    border-radius: 10px;
+}
