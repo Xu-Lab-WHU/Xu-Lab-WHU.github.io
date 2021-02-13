@@ -103,33 +103,115 @@
     margin-bottom: 0px;
     background-color: #CADFB8;
 }
-.headPic a {
+
+.headPic .headLine {
+    float: left;
+    width: 1200px;
+    height: 40px;
+    background-color: #335831;
+    background-size: 1200px 30px;
+}
+.headPic .headLine a {
     display: block;
-    height: 185px;
-    background: url("../logo/head_image.png") no-repeat;
-    background-size: 1200px 185px;
-    font-size: 0;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 90;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
+.headPic .headLabel {
+  float: left;
+  width: 714px;
+  height: 146px;
+}
+
+.headPic .headLabel .headLabName {
+  float: left;
+  width: 614px;
+  height: 80px;
+}
+
+.headPic .headLabel .headLabName a {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #111111;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+.headPic .headLabel .headLabSummary a {
+  display: block;
+  font-style:italic;
+  font-size: 36px;
+  font-weight: 9;
+  letter-spacing: 0.5px;
+  color: #2B5F96;
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+.headPic .headFavicon {
+  float: left;
+  width: 486px;
+  height: 146px;
+  padding-left: 35px;
+}
+
+.headPic .headFavicon .LabFavicon a{
+  display: block;
+  float: left;
+  width: 140px;
+  height: 140px;
+  background: url("../logo/Xu_lab_nobg.png") no-repeat;
+  background-size: 140px 140px;
+  margin-top: 3px;
+}
+
+.headPic .headFavicon .DeptIcon a{
+  display: block;
+  float: left;
+  width: 140px;
+  height: 140px;
+  background: url("../logo/cls_logo_noBG.png") no-repeat;
+  background-size: 140px 140px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.headPic .headFavicon .SchoolIcon a{
+  display: block;
+  float: left;
+  width: 140px;
+  height: 140px;
+  background: url("../logo/WHU_logo_noBG.png") no-repeat;
+  background-size: 140px 140px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
   /* nav导航部分 */
 .nav {
     position: relative;
     margin: 0 auto;
-    height: 63px;
+    height: 60px;
     background-color: #5E803F;
     position: sticky;
     top: 0px;
     z-index: 5;
 }
 nav .navitems {
-    margin-left: 10px;
+    margin-left: 1px;
     border-top: #5E803F solid 2px;
     border-bottom: #5E803F solid 1px;
     /* width: 900px; */
     /* height: 60px; */
 }
 nav .navitems ul li {
-    width: 167px;
+    width: 171.28px;
     /* height: 60px; */
     float: left;
     text-align: center;
@@ -137,8 +219,8 @@ nav .navitems ul li {
 }
 nav .navitems ul li a {
     display: block;
-    height: 60px;
-    line-height: 60px;
+    height: 57px;
+    line-height: 57px;
     font-size: 22px;
     padding: 0 0px;
     color: #fff;
